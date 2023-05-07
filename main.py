@@ -7,8 +7,8 @@ from models import Word, Other_words, create_tables, Command, User, User_word
 from dictionary import dict_filling
 import requests
 
-TOKEN = '6101502411:AAFg_efFcsJx89QEJDn0iCl_KiOB7yeMadQ'
-ya_key = 'dict.1.1.20230417T140531Z.cc7d33edaeb5c3d5.9fab00c3066effbddb6d8fab6869a3386d94b79d'
+TOKEN = ''
+ya_key = ''
 bot = telebot.TeleBot(TOKEN)
 
 login = 'postgres'
